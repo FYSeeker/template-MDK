@@ -1,0 +1,19 @@
+
+# 忽略用户配置文件
+**/MDK/
+
+!**/MDK/*.uvprojx
+
+!**/MDK/DebugConfig
+!**/MDK/Listings
+!**/MDK/Objects
+
+# 忽略调试文件
+**/DebugConfig/
+
+**/Listings/
+
+# 忽略编译文件
+**/Objects/
+# 不忽略可执行文件
+!**/Objects/*.hex
